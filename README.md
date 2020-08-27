@@ -1,3 +1,14 @@
+# Computer says: life is suffering.
+
+## Hi, I have (almost) no idea what I'm doing. I just kind of kicked this bucket of parts down the hill you know?
+
+### Links
+```
+[splash](https://jimmmyjoe.github.io/splash)
+```
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jimmmyjoe/jimmmyjoe.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
