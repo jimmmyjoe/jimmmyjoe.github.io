@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('', include('splashscreen.urls')), #redirects / to /splash invisibly
     path('admin/', admin.site.urls), #the only one to not use include
+    path('', include('splashscreen.urls')), #redirects / to /splash invisibly
     path('splash/', include('splashscreen.urls')), #normal case
 ]
