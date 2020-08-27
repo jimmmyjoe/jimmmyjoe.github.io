@@ -3,10 +3,7 @@
 ## Hi, I have (almost) no idea what I'm doing. I just kind of kicked this bucket of parts down the hill you know?
 
 ### Links
-```
 [splash](https://jimmmyjoe.github.io/)
-```
-
 
 
 ## Welcome to GitHub Pages
