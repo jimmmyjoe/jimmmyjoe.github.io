@@ -4,7 +4,7 @@
 
 ### Links
 ```
-[splash](https://jimmmyjoe.github.io/splash)
+[splash](https://jimmmyjoe.github.io/)
 ```
 
 
