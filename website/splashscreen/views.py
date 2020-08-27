@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 '''
-splashscreen/views.py: super simple call and response via 127 character long strings. I think it's ASCII and UTF-8 not sure. At the moment, it selects a random, pre-written response out of a dict of len 10.
+splashscreen/views.py: super simple call and response via 127 character long strings.
+I think it's ASCII and UTF-8 not sure.
+At the moment, it selects a random, pre-written response out of a dict of len 10.
 '''
 
 #from django.http import HttpResponse as httpr
@@ -46,9 +48,11 @@ def index(request):
     # Context object: stack of dicts w built-in exception handling
     # c = {} --> # c['form'] = form # basically {'form': form,}
     # context.flatten() (many) or context.pop() (singlular)?
-    context = Context({'form': form, 'reply': reply})
+
     #explicit context, shortcut render(R, T, D) where:
     # R (required) = request object used to generate this response.
     # T (required) = full name of template or sequence of Ts (1st found first used).
     # D = dict of values to add to T context. default=empty. views call callables just-in-time for render.
+    context = Context({'form': form, 'reply': reply})
+    
     return render(request,'splashscreen/skeleton_terminal.html',context.flatten())
