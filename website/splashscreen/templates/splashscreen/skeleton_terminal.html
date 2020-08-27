@@ -1,0 +1,16 @@
+{% extends "./skeleton.html" %}
+
+{% block title %}Input/Output{% endblock %}
+
+{% block content %}
+<h3>Input</h3>
+<p><form method="post">
+    {% csrf_token %}
+    {{form}}<input type="submit" value="Submit">
+</form></p>
+<h3>Output</h3>
+<p>
+  {% comment Start with dict response here %}{% endcomment %}
+  {{reply}}
+</p>
+{% endblock %}

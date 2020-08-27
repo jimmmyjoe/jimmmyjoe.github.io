@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- This skeleton skeleton.html was copied from:
+https://docs.djangoproject.com/en/3.0/ref/templates/language/
+-->
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'splashscreen/style.css' %}">
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+    <div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">root</a></li>
+            <li><a href="/splash/">splash</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+</body>
+</html>
