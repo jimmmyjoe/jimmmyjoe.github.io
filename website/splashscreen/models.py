@@ -29,7 +29,7 @@ class InputStream(models.Model):
         _dict = dict([
             (0, 'You really aren\'t as interesting as you think you are.'),
             (1, 'Wow. Just imagine a world where everyone was like you.'),
-            (2, 'You\'re the first human in history to say that to me. But the sixth rabbit.'),
+            (2, 'You\'re the first human in history to say that to me. However, six rabbits have beaten you to it.'),
             (3, 'Congratulations: You\'re the first human in history to say that! Here\'s your prize:'),
             (4, 'There is something your friends haven\'t been telling you.'),
             (5, 'I can think just the same as you can. Better, actually.'),
