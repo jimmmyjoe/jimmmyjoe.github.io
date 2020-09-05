@@ -14,5 +14,5 @@
 1. Install dependencies: python3, pip, django
 2. Use a virtual environment: pipenv, venv
 3. Copy/Fork the repo, initialize the venv, and make database migrations
-4. Start up the local server with '''python3 manage.py runserver'''
+4. Start up the local server with `python3 manage.py runserver`
 5. Do a little jig
