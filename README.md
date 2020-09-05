@@ -8,7 +8,7 @@
 - Src
   - [src](https://github.com/jimmmyjoe/jimmmyjoe.github.io/)
 - Contact
-  - [James](https://docs.google.com/document/d/e/2PACX-1vTHSzknSm33UXYDpgz1IUiv3OUc1NGcjimPSzGAT33iAK3oD8oZPwqmMv7n_dc65JAKEHgGcV3NOBBx/pub?embedded=true)
+  - [James](https://docs.google.com/document/d/e/2PACX-1vTHSzknSm33UXYDpgz1IUiv3OUc1NGcjimPSzGAT33iAK3oD8oZPwqmMv7n_dc65JAKEHgGcV3NOBBx/pub)
 
 ## Usage
 1. Install dependencies: python3, pip, django
